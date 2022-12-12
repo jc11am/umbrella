@@ -1,5 +1,3 @@
-import Footer from "../../componet/footer/Footer"
-import Header from "../../componet/header/Header"
 import "./Home.scss"
 import loginImg from "../../assets/login.svg"
 
@@ -7,7 +5,6 @@ import loginImg from "../../assets/login.svg"
 const Home = function() {
     return(
         <div>
-            <Header/>
             <section className="container hero">
                 <div className="hero-text">
                     <h2>MERN Stack Authentication</h2>
@@ -33,7 +30,6 @@ const Home = function() {
                 </div>
 
             </section>
-            <Footer/>
         </div>
     )
 }
